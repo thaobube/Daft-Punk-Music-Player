@@ -1,0 +1,6 @@
+@import "tailwindcss/dist/tailwind.min.css";
+
+body {
+  background: black;
+  color: blue;
+}
