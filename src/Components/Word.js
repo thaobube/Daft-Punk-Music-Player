@@ -5,7 +5,7 @@ const Word = ({title, link, keyboard, color, type, width}) => {
     const playThisWord = () => {
         word.current.play();
     }
-    const buttonClass = "w-20 h-20 sm:w-24 sm:h-24 lg:"+ width +  "lg:h-24 m-0 p-0 border-2 border-" + color + "-500 rounded-lg font-bold text-" + color + "-600 transition duration-300 ease-in-out hover:bg-" + color + "-600 hover:text-white lg:mr-1 lg-ml-1 xl:mr-2 xl:ml-2";
+    const buttonClass = "w-20 h-20 sm:w-24 sm:h-24 lg:"+ width +  " lg:h-24 m-0 p-0 border-2 border-" + color + "-500 rounded-lg font-bold text-" + color + "-600 transition duration-300 ease-in-out hover:bg-" + color + "-600 hover:text-white lg:mr-1 lg-ml-1 xl:mr-2 xl:ml-2";
     return (
         <div className="p-0" >   
             <audio ref={word}>
